@@ -45,8 +45,8 @@ class App extends Component {
           ...doc.data()
         }
       })
-      this.setState({ TodoList })
       console.log(TodoList)
+      this.setState({ TodoList: TodoList })
     })
   }
 
